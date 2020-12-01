@@ -35,13 +35,14 @@
         android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@id/app_bar_layout">
         <com.google.android.material.textfield.TextInputLayout
+            app:boxBackgroundColor="@color/white"
             android:layout_weight="4"
             android:layout_width="0dp"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txt_memo"
-                android:hint="메모를 저장한 후 저장버튼 클릭"
+                android:hint="메모를 입력 후 저장버튼 클릭"
                 android:inputType="textEmailAddress"
                 android:imeOptions="actionSend"
                 android:layout_width="match_parent"
@@ -52,7 +53,7 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:textSize="20sp"
-            android:text="저장"
+            android:text="추가"
             android:layout_height="match_parent"/>
     </LinearLayout>
     <!-- 글꼴의 크기 단위 dp, sp -->
